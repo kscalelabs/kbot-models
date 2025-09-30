@@ -1,1 +1,1 @@
-# kbot_models
+# kbot-models
