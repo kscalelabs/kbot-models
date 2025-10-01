@@ -1,4 +1,4 @@
-<mujoco model="assy_forurdf">
+<mujoco model="kbot_feet_collisions">
   <default>
     <default class="robot">
       <default class="robstride_03">
