@@ -70,7 +70,7 @@
     <limit effort="60" velocity="18.849" lower="-1.658063" upper="0.436332"/>
     <axis xyz="0 0 1"/>
   </joint>
-  <joint name="frame_imu_site" type="fixed">
+  <joint name="frame_imu_site" type="fixed" dont_collapse="true">
     <origin xyz="-0.025422 -0.001897 0.440523" rpy="0 0 0"/>
     <parent link="KD_D_101L_L_Hip_Static"/>
     <child link="imu"/>

@@ -63,7 +63,7 @@
     <limit effort="60" velocity="18.849" lower="-1.658063" upper="0.436332"/>
     <axis xyz="0 0 1"/>
   </joint>
-  <joint name="frame_imu_site" type="fixed">
+  <joint name="frame_imu_site" type="fixed" dont_collapse="true">
     <origin xyz="0.003707 -0.010539 0.394701" rpy="0.011111 0 0"/>
     <parent link="KD_B_102B_TORSO_BTM"/>
     <child link="imu"/>
